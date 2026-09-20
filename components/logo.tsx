@@ -1,0 +1,1 @@
+export function Logo({compact=false}:{compact?:boolean}){return <div className={`font-black tracking-[-0.08em] ${compact?"text-xl":"text-2xl md:text-3xl"}`}>LEO<span className="text-brand-red">NN</span>ARDO</div>}
