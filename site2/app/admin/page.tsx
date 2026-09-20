@@ -1,0 +1,1 @@
+export default function Site2Admin(){return <main style={{minHeight:"100vh",background:"#000",color:"#fff",display:"grid",placeItems:"center",fontFamily:"Arial"}}><div style={{textAlign:"center"}}><h1>PAINEL ADMIN — SITE 2</h1><p style={{color:"#999"}}>Área isolada para reconstrução do painel mobile.</p></div></main>}
