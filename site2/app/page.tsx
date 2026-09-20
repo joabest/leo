@@ -1,0 +1,1 @@
+export default function Site2Home(){return <main style={{minHeight:"100vh",background:"#000",color:"#fff",display:"grid",placeItems:"center",fontFamily:"Arial"}}><div style={{textAlign:"center"}}><h1 style={{fontSize:"48px",margin:0}}>LEONNARDO — SITE 2</h1><p style={{color:"#999"}}>Reconstrução visual isolada em andamento.</p></div></main>}
