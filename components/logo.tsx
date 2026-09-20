@@ -1,1 +1,15 @@
-export function Logo({compact=false}:{compact?:boolean}){return <div className={`font-black tracking-[-0.08em] ${compact?"text-xl":"text-2xl md:text-3xl"}`}>LEO<span className="text-brand-red">NN</span>ARDO</div>}
+import Image from "next/image";
+
+export function Logo({compact=false}:{compact?:boolean}){
+  return <Image
+    src="/images/leonnardo-logo.png"
+    alt="Leonnardo"
+    width={compact?180:420}
+    height={compact?60:140}
+    priority
+    className={compact
+      ?"h-9 w-auto max-w-[180px] object-contain object-left"
+      :"h-auto w-full max-w-[420px] object-contain object-left"
+    }
+  />;
+}
